@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 2365,
+      "quantity": 600,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 450,
+      "quantity": 1000,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Smart phone",
+      "price": 730,
+      "quantity": 0,
+      "selected": false,
+      "available": false
+    },
+    {
+      "name": "Key board multimedia",
+      "price": 150,
+      "quantity": 2300,
+      "selected": true,
+      "available": true,
+      "id": 5
+    },
+    {
+      "name": "RAM",
+      "price": 3000,
+      "quantity": 5000,
+      "selected": true,
+      "available": true,
+      "id": 6
+    }
+  ]
+}
