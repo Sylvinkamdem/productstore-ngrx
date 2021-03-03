@@ -1,0 +1,15 @@
+<table class="table" *ngIf="state">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Selected</th>
+            <th>Available</th>
+        </tr>
+    </thead>
+    <tbody>
+        <app-product-item *ngFor="let p of state.products" [product]="p" style="display: contents;"></app-product-item>
+    </tbody>
+</table>
